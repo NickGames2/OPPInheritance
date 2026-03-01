@@ -8,11 +8,11 @@ namespace Inheritance
     {
         private double _b;
 
-        public Rectangle(double sideA, double sideB) : base(sideA)
+        public Rectangle(string name, double a, double b) : base(name, a)
         {
-            A = sideA;
-            B = sideB;
-            Name = "Rectangle";
+            A = a;
+            B = b;
+            name = "Rectangle";
         }
         public double B
         {

@@ -4,18 +4,18 @@ using System.Text;
 
 namespace Inheritance
 {
-    public class Trapece : Triangle
+    public class Trapeze : Triangle
     {
         private double _d;
 
-        public Trapece(double sideA, double sideB, double sideC, double sideD, double h) : base(h, sideA, sideB, sideC)
+        public Trapeze(double a, double b, double c, double d, double h, string name) : base(h, a, b, c, name)
         {
-            A = sideA;
-            B = sideB;
-            C = sideC;
-            D = sideD;
+            A = a;
+            B = b;
+            C = c;
+            D = d;
             H = h;
-            Name = "Trapece";
+            name = "Trapece";
         }
         public double D
         {

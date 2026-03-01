@@ -20,15 +20,15 @@ namespace Inheritance
             }
         }
 
-        public Square(double side)
+        public Square(string name, double a) 
         {
-            A = side;
-            Name = "Square";
+            A = a;
+            name = "Square";
         }
 
-        private bool ValidateA(double value)
+        private bool ValidateA(double a)
         {
-            return value > 0;
+            return a > 0;
         }
 
         public override double GetArea()

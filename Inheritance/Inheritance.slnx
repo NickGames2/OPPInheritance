@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Inheritance.Fronted/Inheritance.Fronted.csproj" Id="b2c54322-af4e-48a5-a694-4b12fa6e15d7" />
   <Project Path="Inheritance/Inheritance.csproj" Id="866614e8-a4ea-47ed-be51-f0237d437b14" />
 </Solution>

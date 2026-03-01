@@ -8,10 +8,10 @@ namespace Inheritance
     {
         private double _r;
 
-        public Circle(double r)
+        public Circle(string name, double r)
         {
             R = r;
-            Name = "Circle";
+            name = "Circle";
         }
         public double R
         {

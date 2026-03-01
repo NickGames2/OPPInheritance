@@ -8,12 +8,12 @@ namespace Inheritance
     {
         private double _h;
 
-        public Parallelogram(double h, double sideB, double sideA) : base(sideA, sideB)
+        public Parallelogram(string name,double h, double b, double a) : base(name, a, b)
         {
             H = h;
-            A = sideA;
-            B = sideB;
-            Name = "Parallelogran";
+            A = a;
+            B = b;
+            name = nameof(Parallelogram);
         }
 
         public double H

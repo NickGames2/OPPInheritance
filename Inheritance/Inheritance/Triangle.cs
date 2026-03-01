@@ -9,13 +9,13 @@ namespace Inheritance
         private double _c;
         private double _h;
 
-        public Triangle(double h, double sideA, double sideB, double sideC) : base(sideA, sideB)
+        public Triangle(double h, double a, double b, double c, string name) : base(name,a, b)
         {
-            A = sideA;
-            B = sideB;
-            C = sideC;
+            A = a;
+            B = b;
+            C = c;
             H = h;
-            Name = "Triangle";
+            name = "Triangle";
         }
 
         public double C

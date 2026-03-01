@@ -9,12 +9,12 @@ namespace Inheritance
         private double _d1;
         private double _d2;
 
-        public Rhombus(double d1, double d2, double sideA) : base(sideA)
+        public Rhombus(double d1, double d2, double a, string name) : base(name, a)
         {
-            A = sideA;
+            A = a;
             D1 = d1;
             D2 = d2;
-            Name = "Rhombus";
+            name = "Rhombus";
         }
         public double D1
         {

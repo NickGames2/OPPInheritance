@@ -8,12 +8,13 @@ namespace Inheritance
     {
         private double _b;
 
-        public Kite(double b, double d1, double d2, double sideA) : base(d1, d2, sideA)
+        public Kite(double b, double d1, double d2, double a, string name) : base(d1, d2, a, name)
         {
-            A = sideA;
+            A = a;
             D1 = d1;
             D2 = d2;
             B = b;
+            name = "Kite";
         }
 
         public double B
