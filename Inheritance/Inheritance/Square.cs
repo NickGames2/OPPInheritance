@@ -23,6 +23,7 @@ namespace Inheritance
         public Square(string name, double a) 
         {
             A = a;
+            Name = name;
             name = "Square";
         }
 

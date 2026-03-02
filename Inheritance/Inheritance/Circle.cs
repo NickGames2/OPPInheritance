@@ -11,6 +11,7 @@ namespace Inheritance
         public Circle(string name, double r)
         {
             R = r;
+            Name = name;
             name = "Circle";
         }
         public double R
@@ -28,11 +29,11 @@ namespace Inheritance
             }
         }
 
-        private bool ValidateR(double r) => _r > 0;
+        private bool ValidateR(double r) => r > 0;
 
-        public override double GetArea() => 3.14 * R * R;
+        public override double GetArea() => Math.PI * R * R;
 
-        public override double GetPerimeter() => 2 * 3.14 * R;
+        public override double GetPerimeter() => 2 * Math.PI * R;
 
 
     }

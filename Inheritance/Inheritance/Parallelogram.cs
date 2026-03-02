@@ -13,6 +13,7 @@ namespace Inheritance
             H = h;
             A = a;
             B = b;
+            Name = name;
             name = nameof(Parallelogram);
         }
 
@@ -35,9 +36,7 @@ namespace Inheritance
 
         public override double GetPerimeter() => 2 * (A + B);
 
-        private bool ValidateH(double H)
-        {
-            return H < 0;
-        }
+        private bool ValidateH(double h) => h > 0;
+
     }
 }
